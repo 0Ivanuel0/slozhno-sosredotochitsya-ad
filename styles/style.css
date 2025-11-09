@@ -255,6 +255,10 @@
 }
 
 @media (width >= 768px) {
+
+  .main-title {
+    margin-left: 0;
+  }
   .title-description {
     max-width: clamp(364px, 49.22vw - 12px, 491px);
   }
