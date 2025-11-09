@@ -25,7 +25,6 @@ p {
 ul {
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 picture {
@@ -39,4 +38,23 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+.section-title-deco {
+  color: var(--accent-color, #ff0070);
+}
+
+.text-title-deco {
+  background-color: var(--font-bg-color, #ff0070);
+  color: var(--second-text-color, #000028);
+}
+
+.bold-title {
+  font-style: bold;
+  font-weight: 700;
 }

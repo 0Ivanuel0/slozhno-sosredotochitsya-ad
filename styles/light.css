@@ -1,9 +1,3 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
   /* сохраните этот селектор в приведённом виде.
     Так стили написанные ниже будут иметь больший вес,
@@ -12,5 +6,16 @@
 }
 
 .theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+  --header-bg-image: url(/images/cover-image-light.png);
+
+  --main-title-color: #ffc2e6;
+  --accent-color: #353430;
+  --second-color: #353430;
+  --article-text-color: #353430;
+  --hover-buttton-border-color: #32312d66;
+
+  --page-bg-color: #fff1f7;
+  --font-bg-color: #ff8dcb;
+
+  --rec-visibility: hidden;
 }
