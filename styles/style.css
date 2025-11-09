@@ -243,7 +243,6 @@
   display: grid;
   align-items: center;
   justify-content: center;
-  min-height: 667px;
 }
 
 .footer-title {
@@ -259,6 +258,7 @@
   .main-title {
     margin-left: 0;
   }
+
   .title-description {
     max-width: clamp(364px, 49.22vw - 12px, 491px);
   }
@@ -337,6 +337,7 @@
     block-size: 100%;
     object-fit: cover;
   }
+
 }
 
 @media (width >= 1024px) {
