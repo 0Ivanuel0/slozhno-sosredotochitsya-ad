@@ -339,6 +339,10 @@
     object-fit: cover;
   }
 
+  .footer {
+    min-height: 100vh;
+  }
+
 }
 
 @media (width >= 1024px) {
@@ -378,5 +382,9 @@
     font-size: 157px;
     margin-top: 320px;
     margin-bottom: 320px;
+  }
+
+  .footer {
+    min-height: 100vh;
   }
 }
