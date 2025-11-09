@@ -243,6 +243,7 @@
   display: grid;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
 }
 
 .footer-title {
@@ -275,7 +276,7 @@
   }
 
   .section ul {
-    margin-left: 5px;
+    margin-left: 6.5px;
     grid-column: 2 / 4;
   }
 

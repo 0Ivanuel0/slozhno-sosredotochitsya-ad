@@ -45,7 +45,8 @@ img {
   block-size: auto;
 }
 
-.header, .footer {
+.header, 
+.footer {
   min-height: 100vh;
 }
 
