@@ -1,11 +1,10 @@
-/* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 .page {
   font-family: var(--page-font-family, "IBM Plex Mono", monospace);
   background-color: var(--page-bg-color, #000028);
+  background-attachment: fixed;
   font-weight: 400;
   font-style: normal;
   margin: 0 auto;
-
   min-width: 375px;
   max-width: 1024px;
 }
@@ -132,7 +131,8 @@
 .main-title {
   justify-self: start;
   align-self: center;
-  margin: clamp(65px, 27.48vw - 38px, 173px) 0 clamp(55px, 27.2vw - 47px, 162px) 10px;
+  margin: clamp(65px, 27.48vw - 38px, 173px) 0 clamp(55px, 27.2vw - 47px, 162px)
+    10px;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 83%;
   letter-spacing: 0%;
@@ -146,11 +146,8 @@
 
 .title-description {
   justify-self: end;
-  margin: 
-    0 
-    clamp(10px, 0.0286rem + 2.5445vw, 20px)
-    clamp(66px, 29.8vw - 46px, 183px) 
-    clamp(10px, 0.0286rem + 2.5445vw, 20px);
+  margin: 0 clamp(10px, 0.0286rem + 2.5445vw, 20px)
+    clamp(66px, 29.8vw - 46px, 183px) clamp(10px, 0.0286rem + 2.5445vw, 20px);
 
   max-width: clamp(355px, 40vw + 200px, 364px);
   font-size: 18px;
@@ -162,11 +159,8 @@
 }
 
 .main {
-  margin: 
-    clamp(40px, 5.33vw + 20px, 60px) 
-    clamp(10px, 2.67vw, 20px)
-    clamp(40px, 5.33vw + 20px, 60px) 
-    clamp(10px, 2.67vw, 20px);
+  margin: clamp(40px, 5.33vw + 20px, 60px) clamp(10px, 2.67vw, 20px)
+    clamp(40px, 5.33vw + 20px, 60px) clamp(10px, 2.67vw, 20px);
 }
 
 .section {

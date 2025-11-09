@@ -19,3 +19,20 @@
 
   --rec-visibility: hidden;
 }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --header-bg-image: url(/images/cover-image-light.png);
+
+    --main-title-color: #ffc2e6;
+    --accent-color: #353430;
+    --second-color: #353430;
+    --article-text-color: #353430;
+    --hover-buttton-border-color: #32312d66;
+
+    --page-bg-color: #fff1f7;
+    --font-bg-color: #ff8dcb;
+
+    --rec-visibility: hidden;
+  }
+}
