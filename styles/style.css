@@ -120,7 +120,7 @@
 
 .header__theme-menu-button:focus-visible {
   outline: none;
-  border-bottom: 1px solid var(--accent-color #ff0070);
+  border-bottom: 1px solid var(--accent-color, #ff0070);
 }
 
 .header__theme-menu-button_active {
@@ -243,7 +243,7 @@
   display: grid;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .footer-title {
@@ -385,6 +385,6 @@
   }
 
   .footer {
-    min-height: 100vh;
+    height: 100vh;
   }
 }
